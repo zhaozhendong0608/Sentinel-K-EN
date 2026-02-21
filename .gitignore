@@ -22,3 +22,4 @@ secret.key
 !/Sentinel-K_Development_Manual_EN.md
 !/The_Intent_Driven_Engineer_EN.epub
 !/.gitignore
+!/README.md
