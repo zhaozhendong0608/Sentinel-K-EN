@@ -19,7 +19,7 @@ secret.key
 # Project EN Delivery specific
 /*
 !/*/
-!/Sentinel-K_Development_Manual_EN.md
-!/The_Intent_Driven_Engineer_EN.epub
 !/.gitignore
 !/README.md
+/Sentinel-K_Development_Manual_EN.md
+/The_Intent_Driven_Engineer_EN.epub
