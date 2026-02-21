@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#1C2541"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="400" fill="url(#bg)" rx="20"/>
+
+  <text x="400" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">The Chain of Trust</text>
+  <text x="400" y="90" font-family="system-ui, sans-serif" font-size="16" fill="#A0AABF" text-anchor="middle">Don't look at the code, only look at the evidence</text>
+
+  <!-- Evidence Block -->
+  <rect x="150" y="160" width="140" height="100" rx="10" fill="#1C2541" stroke="#00F260" stroke-width="3"/>
+  <text x="220" y="200" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#00F260" text-anchor="middle">Evidence</text>
+  <text x="220" y="225" font-family="system-ui, sans-serif" font-size="12" fill="#A0AABF" text-anchor="middle">Objective Facts (Diff/Test)</text>
+
+  <!-- Audit Gate -->
+  <circle cx="400" cy="210" r="45" fill="#0575E6" stroke="#FFFFFF" stroke-width="4"/>
+  <text x="400" y="205" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Audit</text>
+  <text x="400" y="225" font-family="system-ui, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Veto/ACK</text>
+
+  <!-- ADR Block -->
+  <rect x="510" y="160" width="140" height="100" rx="10" fill="#1C2541" stroke="#EA580C" stroke-width="3"/>
+  <text x="580" y="200" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#EA580C" text-anchor="middle">ADR</text>
+  <text x="580" y="225" font-family="system-ui, sans-serif" font-size="12" fill="#A0AABF" text-anchor="middle">Decision Log (Archive)</text>
+
+  <!-- Connections -->
+  <line x1="290" y1="210" x2="355" y2="210" stroke="#00F260" stroke-width="4"/>
+  <polygon points="350,205 350,215 360,210" fill="#00F260"/>
+
+  <line x1="445" y1="210" x2="510" y2="210" stroke="#FFFFFF" stroke-width="4"/>
+  <polygon points="505,205 505,215 515,210" fill="#FFFFFF"/>
+
+  <!-- Lock Icon on Audit -->
+  <path d="M 390,165 L 390,155 C 390,145 410,145 410,155 L 410,165 Z" fill="none" stroke="#F2C94C" stroke-width="3"/>
+  <rect x="385" y="165" width="30" height="20" rx="3" fill="#F2C94C"/>
+
+</svg>

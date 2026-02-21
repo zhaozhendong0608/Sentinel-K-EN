@@ -1,0 +1,8 @@
+graph TD
+    A[Start Task] --> B{Task Type?}
+    B -->|Fix Bug| C["Pack-0 + Error Context (Pack-1 if semantic upgrade involved)"]
+    B -->|New Feature| D["Pack-1 (Bone)"]
+    D --> E{Pizza Stage?}
+    E -->|Stage A: Design| F[Maintain Pack-1]
+    E -->|Stage B: Implement| G[Switch to Pack-2]
+    B -->|Arch/Model Refactor| H["Pack-2 (Index + Relevant) + Ext (Migration/Config)"]

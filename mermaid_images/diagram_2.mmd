@@ -1,0 +1,8 @@
+graph TD
+    A[Intent: Add File] --> B{Artifact Type?}
+    B -->|External Contract/API Interface| C[api/ Directory]
+    B -->|Core Model/Business Rules| D[domain/ Core Layer]
+    B -->|Specific Business Process Orchestration| E[app/ Application Layer]
+    B -->|DB/Middleware Implementation| F[infra/ Infrastructure Layer]
+    B -->|Test Code| G[tests/ Directory]
+    B -->|Docs/Decision Records| H[docs/ Directory]

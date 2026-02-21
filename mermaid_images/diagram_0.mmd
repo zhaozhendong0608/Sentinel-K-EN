@@ -1,0 +1,25 @@
+graph TD
+    subgraph "Commander (You)"
+        Intent["Intent (Intent Card)"]
+        Audit["Control Checklist (Audit Checklist)"]
+    end
+
+    subgraph "The Vibe (Force Field)"
+        Spec["Engineering Specifications (Spec)"]
+        Landscape["Project Landscape"]
+        ADR["Architecture Decision Records (ADR)"]
+    end
+
+    subgraph "AI Agent (Executor)"
+        Score["Confidence Score (Evaluation Card)"]
+        Code["Code Implementation (Liquid Assets)"]
+        Evidence["Verification Evidence (Evidence Block)"]
+    end
+
+    Intent --> |"Alignment Calibration"| Spec
+    Spec --> Score
+    Landscape --> Score
+    Score --> |"ACK"| Code
+    Code --> Evidence
+    Evidence --> |"Veto Power"| Audit
+    Audit --> |"Archive"| ADR

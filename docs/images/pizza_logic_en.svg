@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="s1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0575E6"/>
+      <stop offset="100%" stop-color="#021B79"/>
+    </linearGradient>
+    <linearGradient id="s2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F260"/>
+      <stop offset="100%" stop-color="#0575E6"/>
+    </linearGradient>
+    <linearGradient id="s3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2994A"/>
+      <stop offset="100%" stop-color="#F2C94C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0B132B" rx="20"/>
+
+  <!-- Title -->
+  <text x="400" y="50" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Pizza Slicing Logic</text>
+  <text x="400" y="80" font-family="system-ui, sans-serif" font-size="16" fill="#A0AABF" text-anchor="middle">Deconstruct large requirements into "horizontal technical components" rather than "vertical business modules"</text>
+
+  <!-- S1: Bone -->
+  <path d="M 200,320 L 150,150 L 250,150 Z" fill="url(#s1)" stroke="#0B132B" stroke-width="4"/>
+  <text x="200" y="130" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#0575E6" text-anchor="middle">S1: Bone</text>
+  <text x="200" y="350" font-family="system-ui, sans-serif" font-size="14" fill="#A0AABF" text-anchor="middle">Interface Contracts, DB Migrations, Entities</text>
+
+  <!-- S2: Muscle -->
+  <path d="M 400,320 L 350,150 L 450,150 Z" fill="url(#s2)" stroke="#0B132B" stroke-width="4"/>
+  <text x="400" y="130" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#00F260" text-anchor="middle">S2: Muscle</text>
+  <text x="400" y="350" font-family="system-ui, sans-serif" font-size="14" fill="#A0AABF" text-anchor="middle">Core Business Logic, Internal Tests Pass</text>
+
+  <!-- S3: Skin -->
+  <path d="M 600,320 L 550,150 L 650,150 Z" fill="url(#s3)" stroke="#0B132B" stroke-width="4"/>
+  <text x="600" y="130" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#F2C94C" text-anchor="middle">S3: Skin</text>
+  <text x="600" y="350" font-family="system-ui, sans-serif" font-size="14" fill="#A0AABF" text-anchor="middle">Endpoint Integration, Debugging, UI and Glues</text>
+
+  <!-- Arrows -->
+  <path d="M 280,235 L 320,235" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="320,235 310,230 310,240" fill="#FFFFFF"/>
+  
+  <path d="M 480,235 L 520,235" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="520,235 510,230 510,240" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#1C2541"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="400" fill="url(#bg)" rx="20"/>
+
+  <text x="400" y="50" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Target Audience Radar</text>
+  <text x="400" y="80" font-family="system-ui, sans-serif" font-size="16" fill="#A0AABF" text-anchor="middle">Confirm identity before starting industrial-grade workflows</text>
+
+  <!-- Left: Not for -->
+  <rect x="80" y="120" width="300" height="240" rx="15" fill="#1C2541" stroke="#EA580C" stroke-width="3" stroke-dasharray="10,5"/>
+  <circle cx="230" cy="120" r="30" fill="#0B132B" stroke="#EA580C" stroke-width="3"/>
+  <text x="230" y="128" font-family="system-ui, sans-serif" font-size="24" font-weight="bold" fill="#EA580C" text-anchor="middle">❌</text>
+  <text x="230" y="180" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#EA580C" text-anchor="middle">Strongly Recommend Against (Typist)</text>
+  
+  <text x="120" y="230" font-family="system-ui, sans-serif" font-size="14" fill="#FFFFFF">1. Zero foundation, no framework XP</text>
+  <text x="120" y="270" font-family="system-ui, sans-serif" font-size="14" fill="#FFFFFF">2. Belief in "One-click App Generation"</text>
+  <text x="120" y="310" font-family="system-ui, sans-serif" font-size="14" fill="#A0AABF">Only magic, no factories here</text>
+
+  <!-- Right: For -->
+  <rect x="420" y="120" width="300" height="240" rx="15" fill="#0575E6" stroke="#00F260" stroke-width="4" opacity="0.9"/>
+  <circle cx="570" cy="120" r="30" fill="#0B132B" stroke="#00F260" stroke-width="4"/>
+  <text x="570" y="128" font-family="system-ui, sans-serif" font-size="24" font-weight="bold" fill="#00F260" text-anchor="middle">✅</text>
+  <text x="570" y="180" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#00F260" text-anchor="middle">Hardcore Mastery (Commander)</text>
+  
+  <text x="460" y="230" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">1. Team Tech Lead / Architect</text>
+  <text x="460" y="270" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">2. Heavy Cursor/Windsurf Player</text>
+  <text x="460" y="310" font-family="system-ui, sans-serif" font-size="14" fill="#F2C94C">Only discipline, no hallucinations</text>
+
+  <!-- VS icon -->
+  <circle cx="400" cy="240" r="25" fill="#1C2541" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="400" y="246" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">VS</text>
+
+</svg>

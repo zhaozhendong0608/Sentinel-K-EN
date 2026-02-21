@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#1C2541"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="400" fill="url(#bg)" rx="20"/>
+
+  <text x="400" y="50" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Prototype Driven Design</text>
+  <text x="400" y="80" font-family="system-ui, sans-serif" font-size="16" fill="#A0AABF" text-anchor="middle">Low-cost trial and error: Draw the UI first, then write the logic</text>
+
+  <!-- The Old Way -->
+  <rect x="50" y="150" width="300" height="180" rx="10" fill="#1C2541" stroke="#EA580C" stroke-width="2"/>
+  <text x="200" y="180" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#EA580C" text-anchor="middle">Traditional Way: High Rework Cost</text>
+  
+  <rect x="80" y="210" width="80" height="40" rx="5" fill="#3A4A73"/>
+  <text x="120" y="235" font-family="system-ui, sans-serif" font-size="12" fill="#FFF" text-anchor="middle">DB / Backend</text>
+
+  <path d="M 165 230 L 195 230" fill="none" stroke="#A0AABF" stroke-width="2"/>
+  <polygon points="200,230 195,225 195,235" fill="#A0AABF"/>
+
+  <rect x="210" y="210" width="80" height="40" rx="5" fill="#3A4A73"/>
+  <text x="250" y="235" font-family="system-ui, sans-serif" font-size="12" fill="#FFF" text-anchor="middle">Write Frontend UI</text>
+
+  <path d="M 120 250 C 120 300, 250 300, 250 250" fill="none" stroke="#EA580C" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="185" y="315" font-family="system-ui, sans-serif" font-size="12" fill="#EA580C" text-anchor="middle">Requirements off? Tear it all down</text>
+
+  <!-- The Sentinel Way -->
+  <rect x="450" y="150" width="300" height="180" rx="10" fill="#1C2541" stroke="#00F260" stroke-width="2"/>
+  <text x="600" y="180" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#00F260" text-anchor="middle">Sentinel Way: Zero Sunk Cost</text>
+
+  <rect x="500" y="210" width="80" height="40" rx="5" fill="#0575E6"/>
+  <text x="540" y="235" font-family="system-ui, sans-serif" font-size="12" fill="#FFF" text-anchor="middle">Write H5 / Prototype</text>
+
+  <path d="M 540 250 C 540 290, 580 290, 580 250" fill="none" stroke="#F2C94C" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="560" y="305" font-family="system-ui, sans-serif" font-size="12" fill="#F2C94C" text-anchor="middle">Iterate Tweaks</text>
+
+  <path d="M 585 230 L 615 230" fill="none" stroke="#00F260" stroke-width="3"/>
+  <polygon points="620,230 615,225 615,235" fill="#00F260"/>
+
+  <rect x="630" y="210" width="80" height="40" rx="5" fill="#00F260"/>
+  <text x="670" y="235" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#1C2541" text-anchor="middle">Write Backend Later</text>
+
+  <text x="600" y="110" font-family="system-ui, sans-serif" font-size="18" fill="#FFF" text-anchor="middle">UI is the clearest pseudocode</text>
+
+</svg>

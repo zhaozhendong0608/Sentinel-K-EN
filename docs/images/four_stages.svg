@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#1C2541"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="400" fill="url(#bg)" rx="20"/>
+
+  <text x="400" y="50" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">工程四阶段循环 (Four-Stage Loop)</text>
+  <text x="400" y="80" font-family="system-ui, sans-serif" font-size="16" fill="#A0AABF" text-anchor="middle">像流水线一样保证 AI 发挥稳定</text>
+
+  <!-- 1. Planning -->
+  <rect x="100" y="150" width="120" height="120" rx="15" fill="#0575E6" opacity="0.8"/>
+  <text x="160" y="210" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1. 需求雷达</text>
+  <text x="160" y="235" font-family="system-ui, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Planning</text>
+
+  <!-- 2. Execution -->
+  <rect x="270" y="150" width="120" height="120" rx="15" fill="#EA580C" opacity="0.8"/>
+  <text x="330" y="210" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2. 受控执行</text>
+  <text x="330" y="235" font-family="system-ui, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Execution</text>
+
+  <!-- 3. Audit -->
+  <rect x="440" y="150" width="120" height="120" rx="15" fill="#00F260" opacity="0.8"/>
+  <text x="500" y="210" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#1C2541" text-anchor="middle">3. 质量关卡</text>
+  <text x="500" y="235" font-family="system-ui, sans-serif" font-size="12" fill="#1C2541" text-anchor="middle">Audit</text>
+
+  <!-- 4. Archiving -->
+  <rect x="610" y="150" width="120" height="120" rx="15" fill="#F2C94C" opacity="0.8"/>
+  <text x="670" y="210" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#1C2541" text-anchor="middle">4. 归档重启</text>
+  <text x="670" y="235" font-family="system-ui, sans-serif" font-size="12" fill="#1C2541" text-anchor="middle">Archiving</text>
+
+  <!-- Arrows -->
+  <path d="M 230,210 L 255,210" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <polygon points="260,210 250,205 250,215" fill="#FFFFFF"/>
+  
+  <path d="M 400,210 L 425,210" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <polygon points="430,210 420,205 420,215" fill="#FFFFFF"/>
+  
+  <path d="M 570,210 L 595,210" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <polygon points="600,210 590,205 590,215" fill="#FFFFFF"/>
+
+  <!-- Return Loop -->
+  <path d="M 670,280 C 670,350 160,350 160,280" fill="none" stroke="#00F260" stroke-width="3" stroke-dasharray="10,5"/>
+  <polygon points="160,280 155,290 165,290" fill="#00F260"/>
+  <text x="415" y="370" font-family="system-ui, sans-serif" font-size="14" fill="#00F260" text-anchor="middle">Next Task (Context Clear)</text>
+
+</svg>
